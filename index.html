@@ -22,32 +22,39 @@
 
 
 <main>
-<section>
-
-
 <form>
-<h1>How can we help you?</h1>
 
+<section>
+<h2>How can we help you?</h2>
+<ul>
 
+<li>
 <label for="name">Your Name</label>
 <input required type="text" name="name" id="name">
+</li>
 
-
+<li>
 <label for="email">Your E-Mail Address</label>
 <input required type="email" name="email" id="email">
+</li>
 
-
+<li>
 <label for="phone-number">Your Phone Number</label>
-<input required type="number" name="phone-number" id="phone-number" minlength="5" maxlength="15">
+<input required type="number" name="phone-number" id="phone-number" minlength="5">
+</li>
 
-
+<li>
 <label for="message">Your Message</label>
 <textarea required name="message" id="message" minlength="10" maxlength="200" rows="6"></textarea>
+</li>
 
+</ul>
+</section>
 
+<section>
 <label for="channel">How did you find us?</label>
-
 <select required name="channel" id="channel">
+
 <option selected value="web-search">Web Search</option>
 <option value="word-of-mouth">Word of Mouth</option>
 <option value="other">Other</option>
@@ -56,36 +63,38 @@
 
 
 <section>
-<h1>How should we reply?</h1>
+<h2>How should we reply?</h2>
 <ul>
 
-<li>
+<li class="inline-control">
 <input required type="radio" name="reply" id="reply-call" value="number">
 <label for="reply-call">Call me</label>
 </li>
 
-<li>
+<li class="inline-control">
 <input required type="radio" name="reply" id="reply-email" value="email">
 <label for="reply-email">Send me an email</label>
 </li>
 
-<li>
+<li class="inline-control">
 <input required type="radio" name="reply" id="dont-reply" value="no-reply">
 <label for="dont-reply">Don't reply</label>
 </li>
 
 </ul>
+</section>
 
+
+<section class="inline-control">
 <input required type="checkbox" name="accept-terms" id="accept-terms">
 <label for="accept-terms">Accept Terms</label>
 </section>
 
 
-<section>
+<section id="form-actions">
 <button id="clear" type="reset">Clear</button>
 <button id="submit" type="submit">Submit</button>
 </section>
-
 
 </form>
 </main>

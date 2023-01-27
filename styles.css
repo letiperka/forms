@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+form {
+    text-align: left;
+    background-color: rgb(246, 250, 255);
+    width: 40rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+    list-style: none;
+}

@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: sans-serif;
-    background-color: azure;
+    background-color: rgb(236, 252, 253);
 }
 
 h1 {
@@ -18,6 +18,52 @@ form {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-ul li {
+section {
+    margin-bottom: 1rem;
+}
+
+ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    color: rgb(66, 76, 97);
+    margin: 0.5rem 0;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(152, 159, 184);
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(217, 227, 247);
+}
+
+button {
+    font: inherit;
+    border: 1px solid rgb(51, 67, 100);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clear {
+    
+}
+
+#submit {
+
 }

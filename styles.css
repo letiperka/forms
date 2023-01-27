@@ -61,9 +61,20 @@ button {
 }
 
 #clear {
-    
+    background-color: transparent;
+    color: rgb(51, 67, 100);
 }
 
 #submit {
+    background-color: rgb(51, 67, 100);
+    color: white;
+}
 
+#clear:hover {
+    background-color: rgb(208, 215, 230);
+}
+
+#submit:hover {
+    background-color: rgb(69, 89, 129);
+    border-color: rgb(69, 89, 129);
 }

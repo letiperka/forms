@@ -15,38 +15,58 @@
 
 
 <body>
-<header>Contact Us</header>
+    
+<header>
+<h1>Contact Us</h1>
+</header>
+
 
 
 <main>
-
 <section>
+<form action="index.html" method="GET">
+
 <h1>How can we help you?</h1>
 
-<form action="" method="GET">
 
-<label>Your Name</label>
-
-
-<label>Your E-Mail Address</label>
+<label for="name">Your Name</label>
+<input required type="text" name="name" id="name">
 
 
-<label>Your Phone Number</label>
+<label for="email">Your E-Mail Address</label>
+<input required type="email" name="email" id="email">
 
 
-<label>Your Message</label>
+<label for="phone-number">Your Phone Number</label>
+<input required type="number" name="phone-number" id="phone-number" minlength="5" maxlength="15">
 
 
-<label>How did you find us?</label>
+<label for="message">Your Message</label>
+<textarea required name="message" id="message" minlength="10" maxlength="200" rows="6"></textarea>
 
 
-<h1>How should we reply?</h1>
+<label for="channel">How did you find us?</label>
 
+<select required name="channel" id="channel">
+<option selected value="web-search">Web Search</option>
+<option value="word-of-mouth">Word of Mouth</option>
+<option value="other">Other</option>
+</select>
+</section>
 
 
 <section>
-<button id="clear">Clear</button>
-<button id="submit">Submit</button>
+<h1>How should we reply?</h1>
+
+<label></label>
+<input type="">
+
+</section>
+
+
+<section>
+<button id="clear" type="reset">Clear</button>
+<button id="submit" type="submit">Submit</button>
 </section>
 
 

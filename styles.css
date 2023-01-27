@@ -60,6 +60,10 @@ button {
     cursor: pointer;
 }
 
+#form-actions {
+    text-align: right;
+}
+
 #clear {
     background-color: transparent;
     color: rgb(51, 67, 100);
@@ -77,4 +81,17 @@ button {
 #submit:hover {
     background-color: rgb(69, 89, 129);
     border-color: rgb(69, 89, 129);
+}
+
+.inline-control {
+    display: flex;
+}
+
+.inline-control label {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.inline-control input {
+    width: auto;
 }
